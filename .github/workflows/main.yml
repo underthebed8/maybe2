@@ -58,5 +58,5 @@ jobs:
           # Add a long-running command to keep the workflow alive
           while true; do
             echo "Workflow is running..."
-            sleep 5184000  # Sleep for 1 hour
+            sleep 300  # Sleep for 5 minutes
           done
